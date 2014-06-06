@@ -13,6 +13,12 @@
 		AA7E2DBC194160EC00C3AAED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7E2DBA194160EC00C3AAED /* Main.storyboard */; };
 		AA7E2DBE194160EC00C3AAED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7E2DBD194160EC00C3AAED /* Images.xcassets */; };
 		AA7E2DCA194160EC00C3AAED /* ImageInverterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E2DC9194160EC00C3AAED /* ImageInverterDemoTests.m */; };
+		AA7E2DD41941638600C3AAED /* IMG_0365.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AA7E2DD31941638600C3AAED /* IMG_0365.JPG */; };
+		AA7E2E1819416E8100C3AAED /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E2E1719416E8100C3AAED /* ActionViewController.m */; };
+		AA7E2E1A19416E8100C3AAED /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7E2E1919416E8100C3AAED /* MainInterface.storyboard */; };
+		AA7E2E1D19416E8100C3AAED /* com.okcoin.ImageInverterDemo.ImageTest.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AA7E2E1219416E8100C3AAED /* com.okcoin.ImageInverterDemo.ImageTest.appex */; };
+		AA7E2E4019419A9200C3AAED /* opt_history@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA7E2E3F19419A9200C3AAED /* opt_history@2x.png */; };
+		AA7E2E4119419A9200C3AAED /* opt_history@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA7E2E3F19419A9200C3AAED /* opt_history@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +29,42 @@
 			remoteGlobalIDString = AA7E2DAC194160EC00C3AAED;
 			remoteInfo = ImageInverterDemo;
 		};
+		AA7E2E1B19416E8100C3AAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7E2DA5194160EC00C3AAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7E2E1119416E8100C3AAED;
+			remoteInfo = AAPLImageInverter;
+		};
+		AA7E2E1E19416E8100C3AAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7E2DA5194160EC00C3AAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7E2E1119416E8100C3AAED;
+			remoteInfo = AAPLImageInverter;
+		};
+		AA7E2E3D194194F500C3AAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7E2DA5194160EC00C3AAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7E2DAC194160EC00C3AAED;
+			remoteInfo = ImageInverterDemo;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA7E2DEA19416CF000C3AAED /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AA7E2E1D19416E8100C3AAED /* com.okcoin.ImageInverterDemo.ImageTest.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AA7E2DAD194160EC00C3AAED /* ImageInverterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageInverterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +79,15 @@
 		AA7E2DC3194160EC00C3AAED /* ImageInverterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageInverterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7E2DC8194160EC00C3AAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA7E2DC9194160EC00C3AAED /* ImageInverterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageInverterDemoTests.m; sourceTree = "<group>"; };
+		AA7E2DD31941638600C3AAED /* IMG_0365.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0365.JPG; sourceTree = "<group>"; };
+		AA7E2E1219416E8100C3AAED /* com.okcoin.ImageInverterDemo.ImageTest.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = com.okcoin.ImageInverterDemo.ImageTest.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7E2E1519416E8100C3AAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7E2E1619416E8100C3AAED /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		AA7E2E1719416E8100C3AAED /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		AA7E2E1919416E8100C3AAED /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		AA7E2E2919416ED100C3AAED /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		AA7E2E2B19416ED100C3AAED /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		AA7E2E3F19419A9200C3AAED /* opt_history@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "opt_history@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +105,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AA7E2E0F19416E8100C3AAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +120,8 @@
 			children = (
 				AA7E2DAF194160EC00C3AAED /* ImageInverterDemo */,
 				AA7E2DC6194160EC00C3AAED /* ImageInverterDemoTests */,
+				AA7E2E1319416E8100C3AAED /* AAPLImageInverter */,
+				AA7E2E2819416ED100C3AAED /* Frameworks */,
 				AA7E2DAE194160EC00C3AAED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +131,7 @@
 			children = (
 				AA7E2DAD194160EC00C3AAED /* ImageInverterDemo.app */,
 				AA7E2DC3194160EC00C3AAED /* ImageInverterDemoTests.xctest */,
+				AA7E2E1219416E8100C3AAED /* com.okcoin.ImageInverterDemo.ImageTest.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +144,8 @@
 				AA7E2DB7194160EC00C3AAED /* ViewController.h */,
 				AA7E2DB8194160EC00C3AAED /* ViewController.m */,
 				AA7E2DBA194160EC00C3AAED /* Main.storyboard */,
+				AA7E2DD31941638600C3AAED /* IMG_0365.JPG */,
+				AA7E2E3F19419A9200C3AAED /* opt_history@2x.png */,
 				AA7E2DBD194160EC00C3AAED /* Images.xcassets */,
 				AA7E2DB0194160EC00C3AAED /* Supporting Files */,
 			);
@@ -116,6 +178,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AA7E2E1319416E8100C3AAED /* AAPLImageInverter */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E2E1619416E8100C3AAED /* ActionViewController.h */,
+				AA7E2E1719416E8100C3AAED /* ActionViewController.m */,
+				AA7E2E1919416E8100C3AAED /* MainInterface.storyboard */,
+				AA7E2E1419416E8100C3AAED /* Supporting Files */,
+			);
+			path = AAPLImageInverter;
+			sourceTree = "<group>";
+		};
+		AA7E2E1419416E8100C3AAED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E2E1519416E8100C3AAED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA7E2E2819416ED100C3AAED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E2E2919416ED100C3AAED /* PhotosUI.framework */,
+				AA7E2E2B19416ED100C3AAED /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,10 +216,13 @@
 				AA7E2DA9194160EC00C3AAED /* Sources */,
 				AA7E2DAA194160EC00C3AAED /* Frameworks */,
 				AA7E2DAB194160EC00C3AAED /* Resources */,
+				AA7E2DEA19416CF000C3AAED /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AA7E2E1C19416E8100C3AAED /* PBXTargetDependency */,
+				AA7E2E1F19416E8100C3AAED /* PBXTargetDependency */,
 			);
 			name = ImageInverterDemo;
 			productName = ImageInverterDemo;
@@ -148,11 +241,29 @@
 			);
 			dependencies = (
 				AA7E2DC5194160EC00C3AAED /* PBXTargetDependency */,
+				AA7E2E3E194194F500C3AAED /* PBXTargetDependency */,
 			);
 			name = ImageInverterDemoTests;
 			productName = ImageInverterDemoTests;
 			productReference = AA7E2DC3194160EC00C3AAED /* ImageInverterDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA7E2E1119416E8100C3AAED /* ImageTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7E2E2019416E8100C3AAED /* Build configuration list for PBXNativeTarget "ImageTest" */;
+			buildPhases = (
+				AA7E2E0E19416E8100C3AAED /* Sources */,
+				AA7E2E0F19416E8100C3AAED /* Frameworks */,
+				AA7E2E1019416E8100C3AAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageTest;
+			productName = AAPLImageInverter;
+			productReference = AA7E2E1219416E8100C3AAED /* com.okcoin.ImageInverterDemo.ImageTest.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -169,6 +280,9 @@
 					AA7E2DC2194160EC00C3AAED = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = AA7E2DAC194160EC00C3AAED;
+					};
+					AA7E2E1119416E8100C3AAED = {
+						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
@@ -187,6 +301,7 @@
 			targets = (
 				AA7E2DAC194160EC00C3AAED /* ImageInverterDemo */,
 				AA7E2DC2194160EC00C3AAED /* ImageInverterDemoTests */,
+				AA7E2E1119416E8100C3AAED /* ImageTest */,
 			);
 		};
 /* End PBXProject section */
@@ -196,8 +311,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7E2DD41941638600C3AAED /* IMG_0365.JPG in Resources */,
 				AA7E2DBC194160EC00C3AAED /* Main.storyboard in Resources */,
 				AA7E2DBE194160EC00C3AAED /* Images.xcassets in Resources */,
+				AA7E2E4019419A9200C3AAED /* opt_history@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +322,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7E2E1019416E8100C3AAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E2E1A19416E8100C3AAED /* MainInterface.storyboard in Resources */,
+				AA7E2E4119419A9200C3AAED /* opt_history@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +355,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AA7E2E0E19416E8100C3AAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E2E1819416E8100C3AAED /* ActionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +370,21 @@
 			isa = PBXTargetDependency;
 			target = AA7E2DAC194160EC00C3AAED /* ImageInverterDemo */;
 			targetProxy = AA7E2DC4194160EC00C3AAED /* PBXContainerItemProxy */;
+		};
+		AA7E2E1C19416E8100C3AAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7E2E1119416E8100C3AAED /* ImageTest */;
+			targetProxy = AA7E2E1B19416E8100C3AAED /* PBXContainerItemProxy */;
+		};
+		AA7E2E1F19416E8100C3AAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7E2E1119416E8100C3AAED /* ImageTest */;
+			targetProxy = AA7E2E1E19416E8100C3AAED /* PBXContainerItemProxy */;
+		};
+		AA7E2E3E194194F500C3AAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7E2DAC194160EC00C3AAED /* ImageInverterDemo */;
+			targetProxy = AA7E2E3D194194F500C3AAED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -385,6 +534,32 @@
 			};
 			name = Release;
 		};
+		AA7E2E2119416E8100C3AAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AAPLImageInverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "com.okcoin.ImageInverterDemo.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA7E2E2219416E8100C3AAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AAPLImageInverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "com.okcoin.ImageInverterDemo.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -404,6 +579,7 @@
 				AA7E2DCF194160EC00C3AAED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA7E2DD0194160EC00C3AAED /* Build configuration list for PBXNativeTarget "ImageInverterDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +588,16 @@
 				AA7E2DD2194160EC00C3AAED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7E2E2019416E8100C3AAED /* Build configuration list for PBXNativeTarget "ImageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7E2E2119416E8100C3AAED /* Debug */,
+				AA7E2E2219416E8100C3AAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
